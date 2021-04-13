@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.navbar
+  inspection: DeclaresStyle:display:flex
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.navbar
+  inspection: DeclaresStyle:align-items:center
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.navbar
+  inspection: DeclaresStyle:justify-content:space-around
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.navbar
+  inspection: DeclaresStyle:flex-direction:row

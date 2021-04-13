@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.header
+  inspection: DeclaresStyle:height:200px
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.header
+  inspection: DeclaresStyle:background:linear-gradient(90deg,#fff,#FF5B81)

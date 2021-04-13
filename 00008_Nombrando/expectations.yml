@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.cv_name
+  inspection: DeclaresStyle:font-size:4rem
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.cv_name
+  inspection: DeclaresStyle:font-family:Arial
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.cv_name
+  inspection: DeclaresStyle:margin-left:2%

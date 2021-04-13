@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.section
+  inspection: DeclaresStyle:display:flex
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.section
+  inspection: DeclaresStyle:flex-direction:column
